@@ -37,7 +37,7 @@ function animalInfo() {
 
         var animal = $(this).attr("data-name");
         var queryURL = giphyLink+animal+keyPass;
-        console.log(queryURL);
+        //console.log(queryURL);
 
         $.ajax({
           url: queryURL,
