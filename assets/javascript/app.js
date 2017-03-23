@@ -57,7 +57,7 @@ function animalInfo() {
         		var photo = $("<img class='leftLea'>").attr({"src": urlPhoto, "data-still":urlStill, "data-animate":urlAnimate, "data-state":"still"}); 
         		paragr.append("Rating: "+picRate);
         		unePlace.append(paragr);
-        		console.log(urlPhoto);       	
+        		//console.log(urlPhoto);       	
         		unePlace.append(photo);
         		//$(".leftLea").css("padding","5px");
         		$(".displayThings").prepend(unePlace);
