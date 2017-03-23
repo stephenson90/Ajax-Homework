@@ -1,4 +1,4 @@
-var giphyLink ="http://api.giphy.com/v1/gifs/search?q=";
+var giphyLink ="https://api.giphy.com/v1/gifs/search?q=";
 var keyPass = "&api_key=dc6zaTOxFJmzC&limit=6";
 
 var animals = [ "chicken", "cow", "goat", "pig","horse", "donkey"];
